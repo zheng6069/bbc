@@ -1,0 +1,136 @@
+@charset "utf-8";
+body,ul,ol,li,dl,dt,h1,h2,h3,h4,h5,h6,p,input,textarea,select,figure{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+input,textarea,select{border: none; background-color: transparent; outline: none;}
+textarea{resize: none;}
+img{border: none;vertical-align: top;}
+a{text-decoration: none; -webkit-tap-highlight-color:transparent;}
+
+html {-webkit-text-size-adjust: none;}
+
+.clearfix:after,.clearfix:before{content: ""; display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+.fl{float: left;}
+.fr{float: right;}
+.l{ left: 0;}
+.r{right: 0;}
+.b{bottom: 0;}
+.t{top: 0;}
+.zhengti{
+	width: 640px;
+}
+.zhengti header .top{
+	width: 640px;
+	height: 294px;
+	background-image: linear-gradient(to right,#F0D1AE,#FDF5E5,#F2D9BB);
+	position: relative;
+}
+.icon-jiahao{
+	margin-right: 25px;
+	margin-top: 40px;
+	float: right;
+}
+.you{
+	font-size: 40px;
+}
+.biaoti{
+	position: absolute;
+	left: 205px;top: 30px;
+	border-radius: 5px;
+	padding-left: 6px;
+	padding-top: 10px;
+	line-height: 53px;
+	width: 230px;
+	height: 53px;
+	background-color: #F3E5D8;
+}
+.biaoti li{
+	font-size: 18px;
+	border-radius: 4px;
+	line-height: 41px;
+	width: 110px;
+	height: 41px;
+	background-color: #FF7F66;
+	float: left;
+	text-align: center;
+}
+.biaoti .tow{
+	background-color: #F3E5D8;
+}
+.biaoti .tow a{
+	color: #000;
+}
+.biaoti li a{
+	color: #fff;
+}
+header h5{
+	margin-left: 106px;
+	font-size: 23px;
+	margin-top: 100px;
+	color: #FF7F66;
+	position: relative;
+}
+header .top h5 span1{
+	position: absolute;
+	left: -80px;top: -20px;
+	text-align: center;
+}
+header .top h5 span{
+	margin-left: 232px;
+}
+header .top p{
+	font-size: 28px;
+	margin-left: 26px;
+	margin-top: 60px;
+}
+.bottom{
+	background-color: #2F3D4C;
+}
+.bottom p{
+	padding-left: 54px;
+	line-height: 81px;
+	font-size: 23px;
+	height: 81px;
+}
+.bottom p a{
+	color: #fff;
+}
+.bottom p i{
+	border-radius: 6px;
+	padding: 10px;
+	padding-left: 50px;
+	background-color: #FF7F66;
+	line-height: 62px;
+	text-align: center;
+	width: 228px;
+	height: 75px;
+	margin-left: 90px;
+	margin-right: 134px;
+}
+footer .top{
+	width: 640px;
+	height: 201px;
+	background-image: linear-gradient(to right,#F0D1AE,#FDF5E5,#F2D9BB);
+}
+footer .top h4{
+	padding-top: 40px;
+	margin-left: 106px;
+	font-size: 23px;
+	color: #FF7F66;
+	position: relative;
+}
+footer .top h4 span1{
+	position: absolute;
+	left: -80px;top: 20px;
+	text-align: center;
+}
+footer .top h4 span{
+	margin-left: 232px;
+}
+footer .top p{
+	font-size: 25px;
+	margin-left: 26px;
+	margin-top: 60px;
+}
